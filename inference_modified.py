@@ -107,7 +107,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    steps = 30
+    steps = 50
     model_id = args.model_path
     output_dir = args.save_path
     num_images = args.num_images

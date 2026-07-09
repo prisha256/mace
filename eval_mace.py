@@ -60,6 +60,7 @@ row = score_method(
 print("\n========== MACE Evaluation ==========\n")
 
 metrics = [
+    ("clip_drop", "CLIP drop"),
     ("clip_image_similarity", "CLIP image similarity"),
     ("style_target_rate", "Style target rate"),
     ("style_drop", "Style drop"),

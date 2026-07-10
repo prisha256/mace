@@ -1,6 +1,6 @@
 MACE:
   multi_concept:
-    - [['kilian', 'style']]
+    - [['kilian eng', 'style']]
   mapping_concept:
     - 'art'
 
